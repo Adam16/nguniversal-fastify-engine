@@ -14,7 +14,9 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nguniversal/fastify-engine": ["libs/ngfastify-engine/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

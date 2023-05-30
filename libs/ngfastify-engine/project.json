@@ -1,0 +1,45 @@
+{
+  "name": "ngfastify-engine",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/ngfastify-engine/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/ngfastify-engine",
+        "tsConfig": "libs/ngfastify-engine/tsconfig.lib.json",
+        "packageJson": "libs/ngfastify-engine/package.json",
+        "main": "libs/ngfastify-engine/src/index.ts",
+        "assets": ["libs/ngfastify-engine/*.md"]
+      }
+    },
+    "publish": {
+      "command": "node tools/scripts/publish.mjs ngfastify-engine {args.ver} {args.tag}",
+      "dependsOn": ["build"]
+    },
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/ngfastify-engine/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "libs/ngfastify-engine/jest.config.ts",
+        "passWithNoTests": true
+      },
+      "configurations": {
+        "ci": {
+          "ci": true,
+          "codeCoverage": true
+        }
+      }
+    }
+  },
+  "tags": []
+}
