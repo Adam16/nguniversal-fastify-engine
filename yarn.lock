@@ -2404,12 +2404,12 @@
     read-package-json-fast "^3.0.0"
     which "^3.0.0"
 
-"@nrwl/angular@16.2.2":
-  version "16.2.2"
-  resolved "https://registry.yarnpkg.com/@nrwl/angular/-/angular-16.2.2.tgz#e8d80b761e9a0e1cd21091df553f5dfeb9df89e6"
-  integrity sha512-5T6Bad+G1+IZVuzk2tPx4zRD+06nYrTatJVNWM6efe5t0I3IIuGJfAxWu/jeGGIeUmEquk9O/aifadf+XroiDA==
+"@nrwl/angular@16.3.2":
+  version "16.3.2"
+  resolved "https://registry.yarnpkg.com/@nrwl/angular/-/angular-16.3.2.tgz#5640324d3f0bdc81a3709ea85db930ec2f11d445"
+  integrity sha512-OcGEBMY0jBT5NZxDMThK+aSFNr81LCicU2o+Yk6i5Kiv4+ClkEQziSzuV7Jy/jY5g4BNaWl2rLpheQ6V2J5acg==
   dependencies:
-    "@nx/angular" "16.2.2"
+    "@nx/angular" "16.3.2"
     tslib "^2.3.0"
 
 "@nrwl/cypress@16.2.2":
@@ -2418,6 +2418,13 @@
   integrity sha512-8Iap2opfNGwlyjcVeiooaDiYWCI2yAR0IPH02nkvuf3dSfxI3O+lSPuWQQ0n0kNO/hQoBa7lsnaiWwbvn56SkQ==
   dependencies:
     "@nx/cypress" "16.2.2"
+
+"@nrwl/cypress@16.3.2":
+  version "16.3.2"
+  resolved "https://registry.yarnpkg.com/@nrwl/cypress/-/cypress-16.3.2.tgz#a9bf8b5a211b5c69df4065c9142ae17c91af4ab2"
+  integrity sha512-f1RWC4jFe0KNDKRs8FY8gn2ik0+DOGsw/HG2oz5Ck/sT1yPwexLZ/+I854UuKs2Gtw5/B/l/7hcis+/MsgXe2Q==
+  dependencies:
+    "@nx/cypress" "16.3.2"
 
 "@nrwl/devkit@16.2.2":
   version "16.2.2"
@@ -2510,12 +2517,12 @@
   dependencies:
     "@nx/web" "16.2.2"
 
-"@nrwl/webpack@16.2.2":
-  version "16.2.2"
-  resolved "https://registry.yarnpkg.com/@nrwl/webpack/-/webpack-16.2.2.tgz#d4faa21955dc6f3eb9038e2ec532af3a392aa606"
-  integrity sha512-tv3Ul843wMcuq3jGWdqVmjxktLJ/cvB1WTyMmgqTRaRYcqK+wDP+0ziQCgN/sLqKidOyelA2ZyNdx3K/RweEjw==
+"@nrwl/webpack@16.3.2":
+  version "16.3.2"
+  resolved "https://registry.yarnpkg.com/@nrwl/webpack/-/webpack-16.3.2.tgz#1d87276d2c15178931822461ff264b4e4b203f87"
+  integrity sha512-/vd02AtQc8gTstEhYZ0MFt4YxgYgSx3rnsLg/MDv7ltLif7If5eLJfT7ZBQSawcQx0tYb7p5v+7gPRZzH4yiyw==
   dependencies:
-    "@nx/webpack" "16.2.2"
+    "@nx/webpack" "16.3.2"
 
 "@nrwl/workspace@16.2.2":
   version "16.2.2"
@@ -2531,19 +2538,19 @@
   dependencies:
     "@nx/workspace" "16.3.2"
 
-"@nx/angular@16.2.2":
-  version "16.2.2"
-  resolved "https://registry.yarnpkg.com/@nx/angular/-/angular-16.2.2.tgz#240cd8ea7086f283682d45d8bc5199ab58e01037"
-  integrity sha512-PgW+ydtdKLeJIMyHP1St+BWY+uR5CeY+oPUiKS3B8Ac0J1wz3wFxWYCRNqZrCPMf8xPAM1FX2un9BD+GYzxTUg==
+"@nx/angular@16.3.2":
+  version "16.3.2"
+  resolved "https://registry.yarnpkg.com/@nx/angular/-/angular-16.3.2.tgz#bf10481b1392d302366be04fd9f46f0e091d19a1"
+  integrity sha512-HICRym/OBtuNKPN/kQPaKgt61DskiR/6ha52M59nfIi3u6o9c4ty+Jm+/1Wz1DeLDCQdcE3rwB/NTtQLLmW69g==
   dependencies:
-    "@nrwl/angular" "16.2.2"
-    "@nx/cypress" "16.2.2"
-    "@nx/devkit" "16.2.2"
-    "@nx/jest" "16.2.2"
-    "@nx/js" "16.2.2"
-    "@nx/linter" "16.2.2"
-    "@nx/webpack" "16.2.2"
-    "@nx/workspace" "16.2.2"
+    "@nrwl/angular" "16.3.2"
+    "@nx/cypress" "16.3.2"
+    "@nx/devkit" "16.3.2"
+    "@nx/jest" "16.3.2"
+    "@nx/js" "16.3.2"
+    "@nx/linter" "16.3.2"
+    "@nx/webpack" "16.3.2"
+    "@nx/workspace" "16.3.2"
     "@phenomnomnominal/tsquery" "~5.0.1"
     "@typescript-eslint/type-utils" "^5.36.1"
     chalk "^4.1.0"
@@ -2569,6 +2576,20 @@
     "@nx/devkit" "16.2.2"
     "@nx/js" "16.2.2"
     "@nx/linter" "16.2.2"
+    "@phenomnomnominal/tsquery" "~5.0.1"
+    detect-port "^1.5.1"
+    dotenv "~10.0.0"
+    semver "7.3.4"
+
+"@nx/cypress@16.3.2":
+  version "16.3.2"
+  resolved "https://registry.yarnpkg.com/@nx/cypress/-/cypress-16.3.2.tgz#1e248a0237597ba84cc1bf9465ff0b4bbc11c8ae"
+  integrity sha512-XB4CvhTv154GHp/2+lSoCigPKZK1YoRyIZWIHJdBmpQUocLJkSqp+H8KQaU/0gH3Xbz5NxGXbQMFDWzkKxIGPg==
+  dependencies:
+    "@nrwl/cypress" "16.3.2"
+    "@nx/devkit" "16.3.2"
+    "@nx/js" "16.3.2"
+    "@nx/linter" "16.3.2"
     "@phenomnomnominal/tsquery" "~5.0.1"
     detect-port "^1.5.1"
     dotenv "~10.0.0"
@@ -2855,15 +2876,15 @@
     ignore "^5.0.4"
     tslib "^2.3.0"
 
-"@nx/webpack@16.2.2":
-  version "16.2.2"
-  resolved "https://registry.yarnpkg.com/@nx/webpack/-/webpack-16.2.2.tgz#67f132eb083fec84ed5fe103ba169615e6310712"
-  integrity sha512-RsYRCYBAXAWXPH5yS0tiOPbAzhUmrFZ6xKr60ZkzfVHDmqTihIZ4PRv3DwCY3/KOfbNFjREnjD+YnPcQ0iFO8g==
+"@nx/webpack@16.3.2":
+  version "16.3.2"
+  resolved "https://registry.yarnpkg.com/@nx/webpack/-/webpack-16.3.2.tgz#6cbea60c3820c9928df56a632872fe799446947a"
+  integrity sha512-dTbq8IU3STOz9xUb+Bb1PoRNyN/Pyg0S8GAP7s/PI/Ir2ExphoDH522MVv4+EwxJym86xJtejibdszuJYCAV4Q==
   dependencies:
     "@babel/core" "^7.15.0"
-    "@nrwl/webpack" "16.2.2"
-    "@nx/devkit" "16.2.2"
-    "@nx/js" "16.2.2"
+    "@nrwl/webpack" "16.3.2"
+    "@nx/devkit" "16.3.2"
+    "@nx/js" "16.3.2"
     autoprefixer "^10.4.9"
     babel-loader "^9.1.2"
     chalk "^4.1.0"
