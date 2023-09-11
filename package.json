@@ -20,7 +20,7 @@
     "@fastify/static": "^6.10.2",
     "@fastify/view": "^7.4.1",
     "@nguniversal/common": "^16.0.2",
-    "@nx/angular": "16.2.2",
+    "@nx/angular": "16.8.1",
     "fastify": "^4.17.0",
     "nguniversal": "7.1.0",
     "rxjs": "~7.8.0",
